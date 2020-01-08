@@ -2,7 +2,7 @@
 # Contributor: Fabian Bornschein <plusfabi[at]gmail[dog]com>
 
 pkgname=('mhwd-amdgpu')
-pkgver=1.2.1
+pkgver=19.1.0
 pkgrel=1
 
 pkgdesc="MHWD module-ids for amdgpu"
@@ -10,7 +10,7 @@ arch=('any')
 url="http://xorg.freedesktop.org/"
 license=('custom')
 source=("https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids")
-md5sums=('SKIP')
+md5sums=('82cb2772c4146fe38782895d95002009')
 
 _IDFILE="amdgpu.ids"
 _IDFILE_EXP="amdgpu_exp.ids"
